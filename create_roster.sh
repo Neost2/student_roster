@@ -13,7 +13,7 @@ read -p number_of_students
 
 # Access elements
 #Name
-for ((i in ${number_of_students}; i++)); do
+for (i in $number_of_students; i++); do
     echo "Enter Student Name" ; read -p $((i+1)): ${names[i]}"
 done
 
