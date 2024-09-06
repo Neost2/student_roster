@@ -12,11 +12,14 @@ ag
 nb
 
 echo "Welcome to the Interactive student Roster Creator!"
-echo "How many students do you have to add? ${number_of_students[nb]}"
+echo "How many students do you have to add?" 
+read -p ${number_of_students[nb]}
 
 # Access elements
-echo "Enter students name: ${names[nm]}"
-echo "Enter students age: ${age[ag]}"
+echo "Enter students name:"
+read -p ${names[nm]}
+echo "Enter students age:" 
+read -p ${age[ag]}
 
 
 # Loop through arrays
