@@ -4,7 +4,7 @@
 names=()
 ages=()
 
-##<<<<<<< HEAD
+
 #Intro
 
 echo "Welcome to the Interactive student Roster Creator!"
